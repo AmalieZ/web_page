@@ -45,6 +45,19 @@ nav {
 .left-nav li, .right-nav li {
     font-size: 14px;
 }
+.left-nav li span{
+    background-color: lightgray;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.right-nav li a{
+    color: black;
+}
 .header-nav {
     display: flex;
     flex-direction: column;
