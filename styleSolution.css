@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px) {
+    .logo {
+        display: none;
+    }
+    .logo:nth-child(-n+3){
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .logo:nth-child(1){
+        display: block;
+    }
+}
+
+
+.left-nav{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
